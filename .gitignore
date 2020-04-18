@@ -1,0 +1,5 @@
+# ignore cov files
+
+coverage
+test/coverage/
+.DS_store
