@@ -1,5 +1,4 @@
-### [Enigma](https://backend.turing.io/module1/projects/enigma/index)
-(codename: _Fuzzy Couscous_)<br/>
+### [Enigma](https://backend.turing.io/module1/projects/enigma/index) (codename: _Fuzzy Couscous_)<br/>
 [Kiera Allen](https://github.com/KieraAllen)
 
 #### Week 6 Independent Project (2003 BE)
