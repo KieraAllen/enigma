@@ -1,3 +1,7 @@
+require_relative 'test_helper'
+require './lib/enigma'
+
+
 # pry(main)> require 'date'
 # #=> true
 #
