@@ -1,8 +1,8 @@
-### Enigma
-(codename: Fuzzy Couscous)<br/>
+### [Enigma](https://backend.turing.io/module1/projects/enigma/index)
+(codename: _Fuzzy Couscous_)<br/>
 [Kiera Allen](https://github.com/KieraAllen)
 
-#### Week 6 [Independent Project](https://backend.turing.io/module1/projects/enigma/index) (2003 BE)
+#### Week 6 Independent Project (2003 BE)
 Use Ruby to build a tool for cracking an encryption algorithm
 
 #### Learning Goals / Areas of Focus
