@@ -1,4 +1,4 @@
-class Encryptor
+class Encrypt
   attr_reader :characters
 
   def initialize
