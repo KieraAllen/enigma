@@ -16,6 +16,7 @@ class EnigmaTest < Minitest::Test
       key: "02715",
       date: "040895"
     }
+
     assert_equal expected, enigma.encrypt("hello world", "02715", "040895")
   end
 
@@ -26,28 +27,25 @@ class EnigmaTest < Minitest::Test
       key: "02715",
       date: "040895"
     }
+
     assert_equal expected, enigma.decrypt("keder ohulw", "02715", "040895")
   end
 
-end
+  def test_it_can_encrypt_with_a_key_using_current_date
+    # # encrypt a message with a key (uses today's date)
+    # pry(main)> encrypted = enigma.encrypt("hello world", "02715")
+    # #=> # encryption hash here
+  end
 
-# # decrypt a message with a key and date
-# pry(main) > enigma.decrypt("keder ohulw", "02715", "040895")
-# #=>
-# #   {
-# #     decryption: "hello world",
-# #     key: "02715",
-# #     date: "040895"
-# #   }
-#
-# # encrypt a message with a key (uses today's date)
-# pry(main)> encrypted = enigma.encrypt("hello world", "02715")
-# #=> # encryption hash here
-#
-# #decrypt a message with a key (uses today's date)
-# pry(main) > enigma.decrypt(encrypted[:encryption], "02715")
-# #=> # decryption hash here
-#
-# # encrypt a message (generates random key and uses today's date)
-# pry(main)> enigma.encrypt("hello world")
-# #=> # encryption hash here
+  def test_it_can_decrypt_with_a_key_using_current_date
+    # #decrypt a message with a key (uses today's date)
+    # pry(main) > enigma.decrypt(encrypted[:encryption], "02715")
+    # #=> # decryption hash here
+  end
+
+  def test_it_can_encrypt_by_generating_random_key_and_using_current_date
+    # # encrypt a message (generates random key and uses today's date)
+    # pry(main)> enigma.encrypt("hello world")
+    # #=> # encryption hash here
+  end
+end
