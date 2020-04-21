@@ -11,7 +11,13 @@ class EnigmaTest < Minitest::Test
 
   def test_it_can_create_characters
     enigma = Enigma.new
-    expected = ("a".."z").to_a << " "
+    expected = ["a", "b", "c", "d", "e",
+                "f", "g", "h", "i", "j",
+                "k", "l", "m", "n", "o",
+                "p", "q", "r", "s", "t",
+                "u", "v", "w", "x", "y",
+                "z", " "
+              ]
 
     assert_equal expected, enigma.characters
   end
@@ -36,12 +42,6 @@ class EnigmaTest < Minitest::Test
   #   }
   #
   #   assert_equal expected, enigma.decrypt("keder ohulw", "02715", "040895")
-  # end
-  #
-  # def test_it_can_decrypt_an_encryption_and_return_original_message
-  #   enigma = Enigma.new
-  #   actual = enigma.decrypt(encrypted[:encryption], "02715", "040895")
-  #   assert_equal "hello world", actual[:decryption]
   # end
   #
   # def test_it_can_encrypt_with_a_key_using_current_date
