@@ -1,10 +1,12 @@
 class Enigma
   attr_reader :characters,
-              :keys
+              :keys,
+              :offsets
 
   def initialize
     @characters = ("a".."z").to_a << " "
-    @keys = []
+    @keys = {A: 0, B: 0, C: 0, D: 0}
+    @offsets = {A: 0, B: 0, C: 0, D: 0}
   end
 
   # The encrypt method takes a message String as an argument.

@@ -24,7 +24,19 @@ class EnigmaTest < Minitest::Test
 
   def test_it_starts_with_no_keys
     enigma = Enigma.new
-    assert_equal [], enigma.keys
+
+    expected = {A: 0, B: 0, C: 0, D: 0}
+    assert_equal expected, enigma.keys
+  end
+
+  def test_it_starts_with_no_offsets
+    enigma = Enigma.new
+
+    expected = {A: 0, B: 0, C: 0, D: 0}
+    assert_equal expected, enigma.offsets
+  end
+
+  def test_it_can_generate_keys
   end
 
   # def test_it_can_encrypt_using_key_and_date
