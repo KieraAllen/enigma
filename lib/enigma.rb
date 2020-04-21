@@ -9,6 +9,14 @@ class Enigma
     @offsets = {A: 0, B: 0, C: 0, D: 0}
   end
 
+  def generate_keys(number)
+    number = number.to_s.split("")
+   @keys.each do |letter, num|
+     @keys[letter] = number.slice(0..1).join
+     number.shift
+   end
+  end
+
   # The encrypt method takes a message String as an argument.
   # It can optionally take a Key and Date as arguments to use for encryption.
   # If the key is not included, generate a random key.

@@ -37,6 +37,10 @@ class EnigmaTest < Minitest::Test
   end
 
   def test_it_can_generate_keys
+    enigma = Enigma.new
+    
+    expected = {A: "02", B: "27", C: "71", D: "15"}
+    assert_equal expected, enigma.generate_keys("02715")
   end
 
   # def test_it_can_encrypt_using_key_and_date
