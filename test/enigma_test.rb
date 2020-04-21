@@ -22,6 +22,11 @@ class EnigmaTest < Minitest::Test
     assert_equal expected, enigma.characters
   end
 
+  def test_it_starts_with_no_keys
+    enigma = Enigma.new
+    assert_equal [], enigma.keys
+  end
+
   # def test_it_can_encrypt_using_key_and_date
   #   enigma = Enigma.new
   #   expected = {
