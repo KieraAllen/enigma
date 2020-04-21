@@ -2,7 +2,7 @@
 Created by [Kiera Allen](https://github.com/KieraAllen)
 
 #### Week 6 Independent Project (2003 BE)
-Use Ruby to build a tool for cracking an encryption algorithm
+Use Ruby to build a tool for cracking an encryption algorithm.
 
 #### Learning Goals / Areas of Focus
 - Practice breaking a program into logical components
@@ -11,7 +11,8 @@ Use Ruby to build a tool for cracking an encryption algorithm
 - Work with file i/o
 
 #### Self-Assessment
-Before you submit the project, add a self assessment of your project based on [this rubric](https://backend.turing.io/module1/projects/enigma/rubric).
+Based on [this rubric](https://backend.turing.io/module1/projects/enigma/rubric).<br/>
+I evaluate this project as Well Below Expectations. I understood the assignment, but conceptualizing the process took me longer than the allotted time. During the intermission, I want to finish this Enigma project, and I hope to repeat Mod 1 so I am able to work on my fundamental practice and speed.
 
 ##### Bonus Material
-I learned how to make a [jump link](https://stackoverflow.com/questions/15481911/linking-to-a-specific-part-of-a-web-page/#answer-15481937) (use a link to go to a specific part of a webpage)!
+I learned how to make a [jump link](https://stackoverflow.com/questions/15481911/linking-to-a-specific-part-of-a-web-page/#answer-15481937)!
